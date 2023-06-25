@@ -1,0 +1,24 @@
+.messageBox{
+    width: initial;
+    height: 5%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 14px;
+    padding-left: 2%;
+    display: inline-block;
+    clear: both;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.right{
+    float: right;
+    background-color: rgb(47, 47, 49);
+    color: white;
+}
+
+.left{
+    float: left;
+    background-color:  rgb(63, 63, 63);
+    color: white;
+}

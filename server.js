@@ -9,13 +9,18 @@ const cors=require('cors')
 const server = http.createServer(app);
 const io = new Server(server);
 
-app.use(express.static('build'));
+
 app.use(cors())
 
 app.use(cors()); //used for interconnection between URL.
-app.use((req, res, next) => {
-    res.sendFile(path.join(__dirname, 'build', 'index.html'));
-});
+// app.use((req, res, next) => {
+//     res.sendFile(path.join(__dirname, 'build', 'index.html'));
+// });
+
+app.use(express.static(path.join(__dirname ,"./build")));
+app.get('*',(req,res)=>{
+    res.sendFile(path.join(__dirname,"./build/index.html"))
+})
 
 // Chat System
 io.on("connection",(socket)=>{

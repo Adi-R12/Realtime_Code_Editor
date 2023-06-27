@@ -1,5 +1,5 @@
 .chatPage{
-    width:24..6vw;
+    width:24.6vw;
     height: 35vw;
     border-radius: 60px;
 }
@@ -11,7 +11,7 @@
 .chatContainer{
     background-color: rgb(39, 39, 48);
     height: 100%;
-    width: 100%;
+    width: 24.6vw;
     border-radius: 10px;
 }
 

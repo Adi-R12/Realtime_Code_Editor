@@ -20,7 +20,6 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
                     autoCloseTags: true,
                     autoCloseBrackets: true,
                     lineNumbers: true,
-                    matchtags :true
                 }
             );
 

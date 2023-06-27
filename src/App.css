@@ -25,6 +25,8 @@
 }
 
 .homePageLogo {
+    height: 80px;
+    margin-bottom: 30px;
     height: 120px;
     margin-bottom: 20px;
     margin-left: 20px;
@@ -151,6 +153,8 @@
     line-height: 1.6;
     padding-top: 20px;
 }
+
+.CodeMirror
 
 .upperSide{
     width: 100%;

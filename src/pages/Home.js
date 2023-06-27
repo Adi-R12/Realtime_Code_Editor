@@ -37,20 +37,6 @@ const Home = () => {
     return (
         <div className="homePageWrapper">
             <div className="formWrapper">
-                <div className='headerPart'>
-                <img
-                    className="homePageLogo"
-                    src="/home.png"
-                    alt="code-sync-logo"
-                />
-                {/* <p><h1>Codelink</h1><h5>Code together, conquer together</h5></p> */}
-
-                <div className='heading'>
-                    <div className='head'>Codelink</div>
-                    <div className='subHead'>&emsp;Code together, conquer together</div>
-                </div>
-                
-                </div>
                 <h4 className="mainLabel">Paste invitation ROOM ID</h4>
                 <div className="inputGroup">
                     <input
